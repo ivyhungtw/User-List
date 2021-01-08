@@ -1,0 +1,100 @@
+body {
+  background-color: #cfe0e0;
+}
+
+/* nav */
+.header nav {
+  background-color: #c4e1e1d9;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+/* slide */
+.carousel-item img {
+  filter: brightness(50%);
+  max-height: 850px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* mode */
+#mode-container i {
+  cursor: pointer;
+}
+
+#mode-container i:hover {
+  color: #f7f7f7;
+}
+
+.mode-active {
+  color: #f7f7f7;
+}
+
+/* list */
+.user-container img {
+  width: 50%;
+  border: 4px solid #c4e1e1;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+/* modal */
+.modal-content {
+  background-color: #c4e1e1;
+}
+
+#user-modal-info li {
+  background-color: #c4e1e1;
+}
+
+#user-modal-img img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.modal .close {
+  border: none;
+  border-radius: 4px;
+}
+
+.modal span {
+  background-color: none;
+}
+
+/* card */
+.card {
+  box-shadow: 4px 5px 10px rgba(58, 58, 58, 0.336);
+  border: none;
+}
+
+.card-shadow {
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.39);
+}
+
+.heart {
+  color: #ff5151;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  filter: opacity(0.8);
+}
+
+.heart:hover {
+  transform: scale(1.3);
+  filter: opacity(1);
+}
+
+.img-show-user {
+  border: 8px solid #c4e1e1;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.img-show-user:hover {
+  transform: scale(1.2);
+}
+
+.flag {
+  width: 20px;
+  height: 15px;
+}

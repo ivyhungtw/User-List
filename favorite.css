@@ -1,0 +1,56 @@
+/* nav */
+.header nav {
+  background-color: #ffd2d2e8;
+}
+
+/* modal */
+.modal-content {
+  background-color: #ffd2d2;
+}
+
+#user-modal-info li {
+  background-color: #ffd2d2;
+}
+
+#user-modal-img img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.modal .close {
+  border: none;
+  border-radius: 4px;
+}
+
+.modal span {
+  background-color: none;
+}
+
+/* card */
+.card {
+  box-shadow: 4px 5px 10px rgba(58, 58, 58, 0.336);
+  border: none;
+}
+
+.card-shadow {
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.39);
+}
+
+.heart {
+  color: #ff5151;
+  cursor: pointer;
+}
+
+.heart:hover {
+  filter: brightness(0.8);
+}
+
+.img-show-user {
+  border: 8px solid #ffd2d2;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.img-show-user:hover {
+  transform: scale(1.2);
+}
